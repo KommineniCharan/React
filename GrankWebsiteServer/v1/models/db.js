@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 
+mongoose.set("strictQuery", true);
+
 //!   Establishing connection
 const url = "mongodb://localhost:27017/addtocart";
 // "mongodb+srv://charank347:Sruji@123@g-rankdigitalservicespv.8bewoue.mongodb.net/";
