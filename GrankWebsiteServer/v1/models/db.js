@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.set("strictQuery", true);
+const mongoose = require("./mongooseConfig"); // Adjust the path based on your project structure
 
 //!   Establishing connection
 const url = "mongodb://localhost:27017/addtocart";
