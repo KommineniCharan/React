@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+mongoose.set("strictQuery", false);
 const AutoIncrement = require("mongoose-sequence")(mongoose);
 
 const userSchema = new mongoose.Schema({
