@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.set("strictQuery", true);
+mongoose.set("strictQuery", false);
 
 //!   Establishing connection
 const url = "mongodb://localhost:27017/addtocart";
